@@ -46,10 +46,10 @@ function App() {
         return (
               <div className="min-h-screen bg-base-200">
                   <div className="navbar bg-base-100 shadow-sm px-4">
-                    <samp>Ma bibliothèque</samp>
+                     <samp>Ma bibliothèque</samp>
                   </div>
-                  <main className="max-w-6xl mx-auto p-4 lg:grid-cols-4">
-
+                  
+                <main className="max-w-6xl mx-auto p-4 lg:grid-cols-4">
                   <div>
                     <FormulaireLivre
                       livre={livreEnModification}
